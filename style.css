@@ -1,0 +1,306 @@
+/*=================================
+Author: Mohammad Saifur Rahman
+Updated: 21 July, 2020
+Notes: Hand Coded for Fiverr
+===================================*/
+body {
+    background: url('assets/img/body-bg.jpg') no-repeat scroll 0 0 / 100%;
+    padding: 15px 0;
+    background-color: #7e68ab;
+}
+.logo{
+	margin-top:23px;
+}
+.border4 {
+    border: 5px solid #1c1c1b;
+}
+
+.border3 {
+    border-left: 5px solid #1c1c1b;
+    border-right: 5px solid #1c1c1b;
+    border-bottom: 5px solid #1c1c1b;
+}
+
+.welcome-area {
+    background-color: #546af1;
+}
+
+.welcome-area {
+    padding: 30px 0;
+}
+
+.welcome-area h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.welcome-area h1 span {
+    font-weight: 400;
+    font-size: 40%;
+}
+
+.welcome-area h3 span {
+    font-weight: 300;
+    background: #1d1d1b;
+    color: #fff;
+    padding: 5px 30px;
+    font-size: 21px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.welcome-area h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.middle-title {
+    font-size: 28px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: inline-block;
+}
+
+span.f_icon {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.welcome-bottom {
+    color: #fff;
+}
+
+.welcome-bottom h4 {
+    font-weight: 800;
+}
+
+.welcome-bottom h3 {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.second-area {
+    background: #1deae3;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.second-area h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.second-area li {
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.second-area li b {
+    font-weight: 700;
+}
+
+.social-links {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.social-links a {
+    display: inline-block;
+    background: #333;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    line-height: 50px;
+    color: #1deae3;
+    font-size: 22px;
+    margin: 0 5px;
+}
+
+.second-bottom-text {
+    margin-top: 40px;
+    padding-left: 15px;
+    line-height: 1.9;
+}
+
+.second-bottom-text span {
+    padding-left: 30px;
+    display: block;
+}
+
+.third-area {
+    background-color: #f7234b;
+
+}
+
+.third-area h4 {
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.single-feature img {
+    border: 3px solid #1d1d1b;
+}
+
+.feature-slider,
+.feature-text {
+    position: relative;
+    z-index: 999;
+}
+
+.feature-slider .owl-nav div {
+    position: absolute;
+    left: -80px;
+    top: 40%;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #333;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 50px;
+}
+
+.feature-slider .owl-nav div i {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.feature-slider .owl-nav .owl-next {
+    left: auto;
+    right: -80px;
+}
+
+.footer-area {
+    background-color: #546af1;
+}
+
+.footer-area h4 {
+    font-weight: 900;
+    margin-bottom: 70px;
+}
+
+.form-box input,
+.form-box textarea {
+    width: 100%;
+    text-align: center;
+    padding: 6px;
+    border: 4px solid #333;
+}
+
+
+.form-box textarea {
+    min-height: 200px;
+    padding: 20px 10px;
+}
+
+.form-box input[type=submit] {
+    width: auto;
+    padding: 8px 30px;
+    font-weight: 700;
+    background-color: #ddd;
+}
+
+.form-box input[type=submit]:hover {
+    background-color: #f7234b;
+    color: #fff;
+}
+
+.height15 {
+    height: 15px;
+}
+
+.welcome-video {
+    text-align: center;
+    margin-top: 5px;
+    padding: 0 35px;
+}
+
+.max-width-area {
+    max-width: 550px;
+}
+
+
+.welcome-area,
+.second-area,
+.third-area,
+.footer-area {
+    position: relative;
+    z-index: 1;
+}
+
+.welcome-area {
+    z-index: 2;
+}
+
+.welcome-area::after,
+.second-area::after,
+.third-area::after,
+.footer-area::after {
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+}
+
+.welcome-area::after {
+    background: url("assets/img/shape1.png") no-repeat scroll center bottom / 100%;
+}
+
+.second-area::after {
+    background: url("assets/img/shape2.png") no-repeat scroll center center / 100%;
+}
+
+
+.third-area::after {
+    background: url("assets/img/shape3.png") no-repeat scroll bottom center;
+    background-size: contain;
+    bottom: -20%;
+    height: calc(100% + 20%);
+}
+
+.third-area {
+    z-index: 5;
+	padding-top:150px;
+}
+
+.third-area::after {
+    z-index: 5;
+}
+
+.footer-area::after {
+    background: url("assets/img/shape4.png") no-repeat scroll bottom center / 100%;
+}
+
+.footer-area {
+    overflow: hidden;
+}
+
+.single-feature {
+    padding: 0 40px;
+}
+
+.feature-slider {
+    padding-bottom: 40px;
+}
+
+.logo-text,
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    max-width: 140px;
+}
